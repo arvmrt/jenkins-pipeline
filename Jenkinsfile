@@ -1,5 +1,5 @@
 pipeline {
-    agent any
+    agent { label 'standalone-agent-1' }
 
     stages {
         stage('build') {
